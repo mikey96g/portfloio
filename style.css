@@ -1,0 +1,55 @@
+body
+{
+    padding-top: 70px;
+}
+
+.img-circle
+{
+    height: 20em;
+    width: 16em;
+    border: solid 2px rgb(0, 0, 0);
+}
+
+.container
+{
+    text-align: center;
+}
+.jumbotron
+{
+
+}
+
+#About,#Education,#Projects,WorkExp
+{
+    padding: 20em;
+    height: auto;
+} 
+#Home
+{
+    
+}
+.Details
+{
+    float: right;
+    width: 50%;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    
+}
+.HeroPhoto
+{
+    float: left;
+    width: 50%;
+}
+@media (max-width: 600px) {
+    .Details {
+        width: 100%;
+        padding-top: 20px;
+    }
+}
+
+*,
+{
+    box-sizing: border-box;
+}
+
