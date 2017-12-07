@@ -15,10 +15,14 @@ body
     text-align: center;
 }
 
-.fa-1
+.fa-3x
 {
-    padding: 3rem;
-    font-size: 6em;
+    padding-right: 1em;
+    padding-bottom: 20px;    
+}
+.CV
+{
+    float: left;
 }
 
 #About,#Education,#Projects,WorkExp
