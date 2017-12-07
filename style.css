@@ -9,6 +9,11 @@ body
     width: 16em;
     border: solid 2px rgb(0, 0, 0);
 }
+.HeroPhoto
+{
+    float: left;
+    width: 50%;
+}
 
 .container
 {
@@ -25,9 +30,10 @@ body
     float: left;
 }
 
-#About,#Education,#Projects,WorkExp
+#About,#Education,#Projects,#WorkExp
 {
-    padding: 20em;
+    text-align: justify;
+    padding: 10em;
     height: auto;
 } 
 #Home
@@ -42,11 +48,7 @@ body
     text-align: left;
     
 }
-.HeroPhoto
-{
-    float: left;
-    width: 50%;
-}
+
 @media (max-width: 600px) {
     .Details {
         width: 100%;
