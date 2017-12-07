@@ -46,6 +46,22 @@ body
         width: 100%;
         padding-top: 20px;
     }
+    .search-container
+    {
+        float: none;
+    }
+}
+
+.search-container
+{
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
 }
 
 *,

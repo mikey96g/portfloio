@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -18,26 +18,42 @@
     <nav class="navbar navbar-inverse navbar-fixed-top" id="Nav">
         <div class="container-fluid">
             <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nabbar-collapse" aria-expanded="true">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
                 <a class="navbar-brand" href="#">Michael Gallagher</a>
             </div>
+            <nav class="collapse navbar-collapse" aria-expanded="true">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#Home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#About">About me</a>
+                    </li>
+                    <li>
+                        <a href="#Education">Education</a>
+                    </li>
+                    <li>
+                        <a href="#Projects">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#WorkExp">Work Experince</a>
+                    </li>
+                </ul>
 
-            <ul class="nav navbar-nav">
-                <li>
-                    <a href="#Home">Home</a>
-                </li>
-                <li>
-                    <a href="#About">About me</a>
-                </li>
-                <li>
-                    <a href="#Education">Education</a>
-                </li>
-                <li>
-                    <a href="#Projects">Projects</a>
-                </li>
-                <li>
-                    <a href="#WorkExp">Work Experince</a>
-                </li>
-            </ul>
+                <div class="search-container">
+                    <form action="/action_page.php">
+                        <input type="text" placeholder="Search.." name="search">
+                        <button type="submit">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </form>
+                </div>
+            </nav>
+
         </div>
     </nav>
 
@@ -45,42 +61,42 @@
         <!-- Hero -->
         <div class="jumbotron" id="Home">
             <div class="row ">
-                <div class="HeroPhoto">              
-                  <img class="img-circle" src="Images/Headshot.jpg" alt="">                
+                <div class="HeroPhoto">
+                    <img class="img-circle" src="Images/Headshot.jpg" alt="">
                 </div>
                 <div class="Details">
                     <h2>Michael Gallagher</h2>
                     <p>Employement Status: Student</p>
                     <p>Location: IT Tallaght</p>
                 </div>
-                <div class = "quickLinks">
+                <div class="quickLinks">
 
                 </div>
             </div>
-            </div>    
         </div>
-
-        <section>
-            <br>
-            <div id="About">
-                <h1>About</h1>
-            </div>
-
-            <div id="Education">
-                <h1>Education</h1>
-            </div>
-
-            <div id="Projects">
-                <h1>Projects</h1>
-            </div>
-
-            <div id="WorkExp">
-                <h1>Work Experince</h1>
-            </div>
-
-        </section>
     </div>
 
+    <section>
 
+        <div id="About">
+            <h1>About</h1>
+        </div>
 
+        <div id="Education">
+            <h1>Education</h1>
+        </div>
+
+        <div id="Projects">
+            <h1>Projects</h1>
+        </div>
+
+        <div id="WorkExp">
+            <h1>Work Experince</h1>
+        </div>
+
+    </section>
+    </div>
+
+    <!--Jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
