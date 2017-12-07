@@ -14,9 +14,11 @@ body
 {
     text-align: center;
 }
-.jumbotron
-{
 
+.fa-1
+{
+    padding: 3rem;
+    font-size: 6em;
 }
 
 #About,#Education,#Projects,WorkExp
