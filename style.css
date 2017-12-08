@@ -1,7 +1,9 @@
 body
 {
+    position: relative;
     padding-top: 70px;
 }
+
 
 .img-circle
 {
@@ -37,6 +39,7 @@ body
 } 
 #Home
 {
+    margin: auto;
     align-self: auto;
 }
 #Projects
@@ -61,6 +64,7 @@ body
     {
         float: none;
     }
+    
 }
 
 .search-container
@@ -73,11 +77,6 @@ body
     font-size: 17px;
     border: none;
     cursor: pointer;
-}
-
-*,
-{
-    box-sizing: border-box;
 }
 
 .item img
@@ -94,11 +93,20 @@ body
     width: 50%;
     
 }
-.carousel-caption h3, p
+.carousel-caption h3
 {
 
     color: red;
 }
 
+.well
+{
+    padding-block-end: 20em;
+}
+
+.jumbotron
+{
+    padding-bottom:em;
+}
 
 
