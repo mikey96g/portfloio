@@ -18,7 +18,7 @@
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-    <nav class="navbar navbar-inverse navbar-fixed-top" >
+    <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -52,21 +52,21 @@
                        <input type="radio" name="sitesearch" value="" /> The Web 
                        <input type="radio" name="sitesearch" value="askdavetaylor.com" checked />
                         Ask Dave Taylor<br /> </form-->
-                
+
                 <div class="search-container">
-                    <form action="https://www.google.com/search" method="get" >
+                    <form action="https://www.google.com/search" method="get">
                         <input type="text" placeholder="Search.." name="q" value="">
                         <button type="submit">
                                 <i class="fa fa-search"></i>
                             </button>
-                        <input type="checkbox" name="sitesearch" value="https://mikey96g.github.io/portfloio/" checked /> only search portfolio<br />       
+                        <input type="checkbox" name="sitesearch" value="https://mikey96g.github.io/portfloio/" checked />                        only search portfolio<br />
                     </form>
                 </div>
             </div>
 
         </div>
     </nav>
-   
+
 
     <div class="container">
         <!-- Hero -->
@@ -82,60 +82,198 @@
                     <a data-toggle="tooltip" title="Add Me on LinkedIn" target="#linkedIn" href="https://www.linkedin.com/in/mikey96g/"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true" id ="linkedIn" ></i></a>
                     <a data-toggle="tooltip" title="Follow me on Twitter" target="#github" href="https://twitter.com/mikey96g"><i class="fa fa-twitter fa-3x" aria-hidden="true" id ="github" ></i></a>
                     <a data-toggle="tooltip" title="View my work!" target="#twitter" href="https://www.github.com/mikey96g"><i class="fa fa-github-square fa-3x" aria-hidden="true" id ="twitter" ></i></a>
-                   
+
                 </div>
-                <div class="CV"> 
-                        <a href="C:\Users\X00121692\OneDrive - Tallaght Institute of Technology\CV's\MichaelGallagher CV Template.docx" download="Michael"></a>
+                <div class="CV">
+                    <a href="C:\Users\X00121692\OneDrive - Tallaght Institute of Technology\CV's\MichaelGallagher CV Template.docx" download="Michael"></a>
                     <button type="button" class="btn btn-default">Download C.V</button>
                 </div>
-               
+
             </div>
         </div>
-    
 
-    
+
+
         <!--About Section-->
         <div id="About">
             <h1>About</h1>
             <br>
-            <p>I am a final year student at the Institute of Technology Tallaght where I am completing a Bachelors of Science in Computing. 
-                This degree covers many areas in IT but its primary focus is on software development.
+            <p>I am a final year student at the Institute of Technology Tallaght where I am completing a Bachelors of Science
+                in Computing. This degree covers many areas in IT but its primary focus is on software development.
             </p>
             <br>
-            <p>During my time in Tallaght I have discoved a multitude of technologies and programming languages. ITT has ebanled me to use this knowledge in various different projects 
-                and gave me the opportunity to apply this knowledge in the real world by allowing me to complete an industry placement. 
+            <p>During my time in Tallaght I have discoved a multitude of technologies and programming languages. ITT has ebanled
+                me to use this knowledge in various different projects and gave me the opportunity to apply this knowledge
+                in the real world by allowing me to complete an industry placement.
             </p>
             <br>
             <p>
-            I worked for the Department of Agriculture as a software tester out in backweston
+                I worked for the Department of Agriculture as a software tester out in backweston
             </p>
         </div>
 
+        <!--Education-->
         <div id="Education">
             <h1>Education</h1>
             <ul class="nav nav-tabs">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">Year 1</a></li>
-                <li><a href="#">Year 2</a></li>
-                <li><a href="#">Year 3</a></li>
-                <li><a href="#">Year 4</a></li>
+                <li class="active"><a data-toggle="tab" href="#Year1">Year 1</a></li>
+                <li><a data-toggle="tab" href="#Year2">Year 2</a></li>
+                <li><a data-toggle="tab" href="#Year3">Year 3</a></li>
+                <li><a data-toggle="tab" href="#Year4">Year 4</a></li>
             </ul>
-        </div>
 
+            <div class="tab-content">
+                <div id="Year1" class="tab-pane fade in active">
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Module</th>
+                                    <th>Grade</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Computer Architecture</td>
+                                    <td>B</td>
+                                </tr>
+                                <tr>
+                                    <td>Fundament of Interface & Web</td>
+                                    <td>B</td>
+                                </tr>
+                                <tr>
+                                    <td>Business & Information System</td>
+                                    <td>B</td>
+                                </tr>
+                                <tr>
+                                    <td>Discrete Mathematics</td>
+                                    <td>C</td>
+                                </tr>
+                                <tr>
+                                    <td>Learning to Learn</td>
+                                    <td>B</td>
+                                </tr>
+                                <tr>
+                                    <td>Software Development 1</td>
+                                    <td>B+</td>
+                                </tr>
+                                <tr>
+                                    <td>Operating Syst Fundamentals</td>
+                                    <td>C+</td>
+                                </tr>
+                                <tr>
+                                    <td>Database Fundamentals</td>
+                                    <td>A</td>
+                                </tr>
+                                <tr>
+                                    <td>Statisitcs</td>
+                                    <td>B+</td>
+                                </tr>
+                                <tr>
+                                    <td>Social Media Communications</td>
+                                    <td>B</td>
+                                </tr>
+                                <tr>
+                                    <td>Software Development 2</td>
+                                    <td>B</td>
+                                </tr>
+                                <tr>
+                                    <td>Object Oriented System Analysis</td>
+                                    <td>C+</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            
+                <div id="Year2" class="tab-pane fade in ">
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Module</th>
+                                    <th>Grade</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Computer Architecture</td>
+                                    <td>B</td>
+                                </tr>
+                                <tr>
+                                    <td>Fundament of Interface & Web</td>
+                                    <td>B</td>
+                                </tr>
+                                <tr>
+                                    <td>Business & Information System</td>
+                                    <td>B</td>
+                                </tr>
+                                <tr>
+                                    <td>Discrete Mathematics</td>
+                                    <td>C</td>
+                                </tr>
+                                <tr>
+                                    <td>Learning to Learn</td>
+                                    <td>B</td>
+                                </tr>
+                                <tr>
+                                    <td>Software Development 1</td>
+                                    <td>B+</td>
+                                </tr>
+                                <tr>
+                                    <td>Operating Syst Fundamentals</td>
+                                    <td>C+</td>
+                                </tr>
+                                <tr>
+                                    <td>Database Fundamentals</td>
+                                    <td>A</td>
+                                </tr>
+                                <tr>
+                                    <td>Statisitcs</td>
+                                    <td>B+</td>
+                                </tr>
+                                <tr>
+                                    <td>Social Media Communications</td>
+                                    <td>B</td>
+                                </tr>
+                                <tr>
+                                    <td>Software Development 2</td>
+                                    <td>B</td>
+                                </tr>
+                                <tr>
+                                    <td>Object Oriented System Analysis</td>
+                                    <td>C+</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div id="Year3" class="tab-pane fade in ">
+                    <h3>Hello</h3>
+                </div>
+                <div id="Year4" class="tab-pane fade in ">
+                    <h3>Hello</h3>
+                </div>
+
+            </div>
+        </div>
+        <!--Projects-->
         <div id="Projects">
             <h1>Projects</h1>
         </div>
 
+
+        <!--WorkExp-->
         <div id="WorkExp">
             <h1>Work Experince</h1>
         </div>
 
     </div>
-    
+
 
     <script>
-        $(document).ready(function(){
-            $('[data-toggle="tooltip"]').tooltip(); 
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
         });
     </script>
 </body>
