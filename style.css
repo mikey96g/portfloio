@@ -33,12 +33,15 @@ body
 #About,#Education,#Projects,#WorkExp
 {
     text-align: justify;
-    padding: 10em;
     height: auto;
 } 
 #Home
 {
-    align-self: auto;;
+    align-self: auto;
+}
+#Projects
+{
+    float:centre; 
 }
 .Details
 {
@@ -76,4 +79,26 @@ body
 {
     box-sizing: border-box;
 }
+
+.item img
+{
+    height: 220px;
+    max-height: 220px;
+    width: 100%;
+    
+}
+
+.carousel 
+{
+    margin:auto;
+    width: 50%;
+    
+}
+.carousel-caption h3, p
+{
+
+    color: red;
+}
+
+
 
