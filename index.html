@@ -46,15 +46,15 @@
                         <a href="#WorkExp">Work Experince</a>
                     </li>
                 </ul>
-                
+
 
                 <div class="search-container">
                     <form action="https://www.google.com/search" method="get">
                         <input type="text" placeholder="Search.." name="q" value="">
                         <button type="submit">
-                                <i class="fa fa-search"></i>
-                            </button>
-                        
+                            <i class="fa fa-search"></i>
+                        </button>
+
                     </form>
                 </div>
             </div>
@@ -74,9 +74,15 @@
                     <h2>Michael Gallagher</h2>
                     <p>Employement Status: Student</p>
                     <p>Location: IT Tallaght</p>
-                    <a data-toggle="tooltip" title="Add Me on LinkedIn" target="#linkedIn" href="https://www.linkedin.com/in/mikey96g/"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true" id ="linkedIn" ></i></a>
-                    <a data-toggle="tooltip" title="Follow me on Twitter" target="#github" href="https://twitter.com/mikey96g"><i class="fa fa-twitter fa-3x" aria-hidden="true" id ="github" ></i></a>
-                    <a data-toggle="tooltip" title="View my work!" target="#twitter" href="https://www.github.com/mikey96g"><i class="fa fa-github-square fa-3x" aria-hidden="true" id ="twitter" ></i></a>
+                    <a data-toggle="tooltip" title="Add Me on LinkedIn" target="#linkedIn" href="https://www.linkedin.com/in/mikey96g/">
+                        <i class="fa fa-linkedin-square fa-3x" aria-hidden="true" id="linkedIn"></i>
+                    </a>
+                    <a data-toggle="tooltip" title="Follow me on Twitter" target="#github" href="https://twitter.com/mikey96g">
+                        <i class="fa fa-twitter fa-3x" aria-hidden="true" id="github"></i>
+                    </a>
+                    <a data-toggle="tooltip" title="View my work!" target="#twitter" href="https://www.github.com/mikey96g">
+                        <i class="fa fa-github-square fa-3x" aria-hidden="true" id="twitter"></i>
+                    </a>
 
                 </div>
                 <div class="CV">
@@ -90,7 +96,7 @@
 
         <br>
         <br>
-        
+
         <!--About Section-->
         <div class="well" id="About">
             <h1>About</h1>
@@ -113,10 +119,18 @@
         <div class="well" id="Education">
             <h1>Education</h1>
             <ul class="nav nav-tabs">
-                <li class="active"><a data-toggle="tab" href="#Year1">Year 1</a></li>
-                <li><a data-toggle="tab" href="#Year2">Year 2</a></li>
-                <li><a data-toggle="tab" href="#Year3">Year 3</a></li>
-                <li><a data-toggle="tab" href="#Year4">Year 4</a></li>
+                <li class="active">
+                    <a data-toggle="tab" href="#Year1">Year 1</a>
+                </li>
+                <li>
+                    <a data-toggle="tab" href="#Year2">Year 2</a>
+                </li>
+                <li>
+                    <a data-toggle="tab" href="#Year3">Year 3</a>
+                </li>
+                <li>
+                    <a data-toggle="tab" href="#Year4">Year 4</a>
+                </li>
             </ul>
 
             <div class="tab-content">
@@ -336,133 +350,183 @@
 
             </div>
         </div>
-        
+
         <!--Projects-->
         <div class="well" id="Projects">
             <h2>Project</h2>
             <h4>Significant Projects</h4>
             <div class="row text-center">
+                <!--Forex Thumbnail-->
+                <div class="col-sm-6">
+                        <div class="thumbnail">
+                            <img src="Images/C++.png" alt="Plaigerism">
+                            <p>
+                                <strong>C++</strong>
+                            </p>
+                            <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#Plaigerism">Project Details</button>
+                            <div class="modal fade" id="Plaigerism" role="dialog">
+                                <div class="modal-dialog">
+    
+                                    <!-- Modal content-->
+                                    <div class="modal-content">
+                                         <div class="modal-header">
+                                             <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                             <h4 class="modal-title">Cucumber Framework Analysis</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p></p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
                 <!--Cucumber Thumbnail-->
-                <div class="col-sm-4">
+                <div class="col-sm-6">
                     <div class="thumbnail">
-                        <img src="Images/Cucumber.jpg"  alt="Cucumber">
+                        <img src="Images/Cucumber.jpg" alt="Cucumber">
                         <p>
                             <strong>Cucumber</strong>
                         </p>
-                        <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal">Project Details</button>
-                        <div class="modal fade" id="myModal" role="dialog">
-                                <div class="modal-dialog">
-                                
-                                  <!-- Modal content-->
-                                  <div class="modal-content">
+                        <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#Cucumber">Project Details</button>
+                        <div class="modal fade" id="Cucumber" role="dialog">
+                            <div class="modal-dialog">
+
+                                <!-- Modal content-->
+                                <div class="modal-content">
                                     <div class="modal-header">
-                                      <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                      <h4 class="modal-title">Cucumber Framework Analysis</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Cucumber Framework Analysis</h4>
                                     </div>
-                                    <div class="modal-body">
-                                      <p></p>
+                                    <div class="modal-body text-left">
+                                        <p>This project was in association with the Department of Agriculture Food and Marine.
+                                            It was conducted to see if the Cucumber Framework would be more suitable than
+                                            the current testing methods the Department were using. </p>
+                                        <p>I tested the framework under various different headings such as speed, reliability,
+                                            user experince and cost to the company. Using the information I gathered I came
+                                            to the conclusion that Cucumber would be an acceptable Framework for the Department.</p>
+                                        <p>I was then required to prevent my findings to the manager so she could be more infromed
+                                            on the maatter.</p>
                                     </div>
                                     <div class="modal-footer">
-                                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                                     </div>
-                                  </div>
-                                  
                                 </div>
-                              </div>
+
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-sm-4">
+                 
+                
+            </div>
+            
+            <div class="row text-center">
+               <!--DRM Thumbnail-->
+                <div class="col-sm-6">
                     <div class="thumbnail">
                         <img src="Images/Headshot.jpg" alt="Website">
                         <p>
                             <strong>Furniture Store</strong>
                         </p>
-                        <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal">Project Details</button>
-                        <div class="modal fade" id="myModal" role="dialog">
-                                <div class="modal-dialog">
-                                
-                                  <!-- Modal content-->
-                                  <div class="modal-content">
+                        <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#Website">Project Details</button>
+                        <div class="modal fade" id="Website" role="dialog">
+                            <div class="modal-dialog">
+
+                                <!-- Modal content-->
+                                <div class="modal-content">
                                     <div class="modal-header">
-                                      <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                      <h4 class="modal-title">Cucumber Framework Analysis</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Cucumber Framework Analysis</h4>
                                     </div>
                                     <div class="modal-body">
-                                      <p></p>
+                                        <p></p>
                                     </div>
                                     <div class="modal-footer">
-                                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                                     </div>
-                                  </div>
-                                  
                                 </div>
-                              </div>
+
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-sm-4">
+                <!--C++ Thumbnail-->
+                <div class="col-sm-6">
                     <div class="thumbnail">
-                        <img src="Images/check-plagiarism.png" alt="Plaigerism">
+                        <img src="Images/DRMshop.jpg" alt="Year4">
                         <p>
                             <strong>C++</strong>
                         </p>
-                        <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal">Project Details</button>
-                        <div class="modal fade" id="myModal" role="dialog">
-                                <div class="modal-dialog">
-                                
-                                  <!-- Modal content-->
-                                  <div class="modal-content">
+                        <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#Year4">Project Details</button>
+                        <div class="modal fade" id="Year4" role="dialog">
+                            <div class="modal-dialog">
+
+                                <!-- Modal content-->
+                                <div class="modal-content">
                                     <div class="modal-header">
-                                      <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                      <h4 class="modal-title">Cucumber Framework Analysis</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Year 4 Project</h4>
                                     </div>
                                     <div class="modal-body">
-                                      <p></p>
+                                        <p></p>
                                     </div>
                                     <div class="modal-footer">
-                                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                                     </div>
-                                  </div>
-                                  
                                 </div>
-                              </div>
+
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>    
+            </div>
         </div>
     
 
-       
-        
-        
-        <!--WorkExp-->
-        <div class="well" id="WorkExp">
-            <h1>Work Experince</h1>
-            <div class="panel-group" id="accordion">
-                    <div class="panel panel-default">
-                      <div class="panel-heading">
-                        <h4 class="panel-title">
-                          <a data-toggle="collapse" data-parent="#accordion" href="#Compass">Compass Group</a>
-                        </h4>
-                      </div>
-                      <div id="Compass" class="panel-collapse collapse ">
-                        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-                      </div>
+
+
+
+
+    <!--WorkExp-->
+    <div class="well" id="WorkExp">
+        <h1>Work Experince</h1>
+        <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#Compass">Compass Group</a>
+                    </h4>
+                </div>
+                <div id="Compass" class="panel-collapse collapse ">
+                    <div class="panel-body">I have been working with Compass for over a year now as a cashier. My main responsibilities include:
+                        • Training in new staff showing them how to operate the tills and how the kiosk operates. • Communicating
+                        with customers of all nationalities and backgrounds making sure they’re experience is positive while
+                        also managing my time to keep queues moving. • Cashing out my till making sure it balances out and
+                        assisting other members of staff with theirs.
                     </div>
-                    <div class="panel panel-default">
-                      <div class="panel-heading">
-                        <h4 class="panel-title">
-                          <a data-toggle="collapse" data-parent="#accordion" href="#DAFM">Department of Agriculture</a>
-                        </h4>
-                      </div>
-                      <div id="DAFM" class="panel-collapse collapse">
-                        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-                      </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#DAFM">Department of Agriculture</a>
+                    </h4>
+                </div>
+                <div id="DAFM" class="panel-collapse collapse">
+                    <div class="panel-body">Feb 2017 – Aug 2017 Department of Agriculture Food & Marine Software Tester (Industrial Placement) I
+                        worked in the Department of Agriculture as a software tester. Some of my responsibilities included:
+                        • Front & Back End Testing using tools such as SoapUI & Selenium WebDriver. • Involved in both Automated
+                        and Manual Testing of Web based applications. • Analyzing business rules and assisting in the creation
+                        of use cases. • Working in an agile environment. • Delivered a report and presentation on the testing
+                        framework Cucumber. • Partook in both regression testing and disaster recovery testing.
                     </div>
-                    <!--div class="panel panel-default">
+                </div>
+            </div>
+            <!--div class="panel panel-default">
                       <div class="panel-heading">
                         <h4 class="panel-title">
                           <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Collapsible Group 3</a>
@@ -474,12 +538,12 @@
                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
                       </div>
                     </div>
-                  </div--> 
-            
+                  </div-->
+
         </div>
 
     </div>
-
+    </div>
 
     <script>
         $(document).ready(function () {
