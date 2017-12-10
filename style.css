@@ -7,8 +7,8 @@ body {
 .img-circle
 {
     
-    height: 20em;
-    width: 16em;
+    height: 16em;
+    width: 19em;
     border: solid 2px rgb(0, 0, 0);
 }
 .HeroPhoto
@@ -24,6 +24,13 @@ body {
     color: black;
 }
 
+.rotateimg90 {
+    -webkit-transform:rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
 .fa-3x
 {
     padding-right: 1em;
